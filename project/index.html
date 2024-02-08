@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <aside class="sidebar">
+        <nav class="sidebar_navigation">
+            <div class="div_logo">
+                <a href="#"><img src="./src/assets/img/logo-spotify.png" alt="LOGO SPOTIFY" class="logo"></a>
+            </div>
+            <ul class="div_icon">
+                <li>
+                    <a href="#" class="nav_span">
+                        <span><img src="./src/assets/img/house-solid.svg" alt="ícone de Home" class="icone"></span>
+                        <span>Início</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav_span">
+                        <span><img src="./src/assets/img/magnifying-glass-solid.svg" alt="ícone de Lupa"
+                                class="icone"></span>
+                        <span>Buscar</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="biblioteca">
+            <div class="conteudo__biblioteca">
+                <button class="button__biblioteca">
+                    <span class="material-symbols-outlined">library_music</span>
+                    <span>Sua Biblioteca</span>
+                </button>
+                <span class="material-symbols-outlined" id="biblioteca__mais">add</span>
+            </div>
+            <section class="playlist">
+                <div class="conteudo__playlist">
+                    <span class="text titulo">Crie sua primeira playlist</span>
+                    <span class="text subtitulo">É fácil, vamos te ajudar.</span>
+                    <button class="button__playlist">
+                        <span>Criar playlist</span>
+                    </button>
+                </div>
+            </section>
+            <div class="cookies">
+                <a href="#">Cookies</a>
+            </div>
+            <div class="languages">
+                <button class="languages__button">
+                    <span class="material-symbols-outlined">
+                        language
+                    </span>
+                    <div class="language__container">
+                        <span class="language__br">
+                            Português do Brasil
+                        </span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </aside>
+    <footer>
+        <div class="footer__container">
+            <p class="p__premium">TESTAR O PREMIUM DE GRAÇA</p>
+            <p class="p__premium">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não
+                precisa de cartão de crédito.</p>
+        </div>
+        <div class="footer__div__button">
+            <button type="button" class="footer__button">Inscreva-se grátis</button>
+        </div>
+    </footer>
+</body>
+
+</html>
